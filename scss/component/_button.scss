@@ -1,0 +1,58 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+  @include mq("lg") {
+    padding: 10px 30px;
+
+    &+& {
+      margin-left: 10px;
+    }
+  }
+}
+
+//Is there a way to be less repetitive applying properties to the buttons below?
+.default {
+  background-color: $color-default;
+  &:hover{
+    @include hover($color-default);
+  }
+}
+
+.error {
+  background-color: $color-error;
+  &:hover{
+    @include hover($color-error);
+  }
+}
+
+.info {
+  background-color: $color-info;
+  &:hover{
+    @include hover($color-info);
+  }
+}
+
+.success {
+  background-color: $color-info;
+  &:hover{
+    @include hover($color-info);
+  }
+}
+
+.warning {
+  background-color: $color-warning;
+  &:hover{
+    @include hover($color-warning);
+  }
+}
+

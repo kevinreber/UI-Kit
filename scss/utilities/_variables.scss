@@ -1,0 +1,39 @@
+/* ============================================= */
+/*                  Colors                       */
+/* ============================================= */
+
+//Global Colors
+$color-primary: #58e1c1;
+$color-secondary: #777;
+
+//Button Colors
+$color-default:#51ddfc;
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
+
+//Grid Colors
+//col 1 - col 2 & col 9 - col 11 match button colors
+$color-col-3: #deb2ee;
+$color-col-4: lighten($color-default, 10%);
+$color-col-5: lighten($color-success, 10%);
+$color-col-6: #4da2bb;
+$color-col-7: lighten($color-error, 10%);
+$color-col-8: lighten($color-warning, 10%);
+$color-col-12: #80e8d1;
+
+/* ============================================= */
+/*                     Font                      */
+/* ============================================= */
+
+//Primary font-family
+$font-primary: 'Lato', sans-serif;
+
+/* ============================================= */
+/*               Media Queries                   */
+/* ============================================= */
+
+//Breakpoint for Large devices
+$break-lg: 768px;
+
