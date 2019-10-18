@@ -47,11 +47,11 @@
 }
 
 
-
+//use a loop and placeholder for .theme and mq mixin
 .col {
   &-1 {
     &.theme {
-      background-color: $color-info;
+      background-color: map-get($grid-colors, "col-1");
     }
 
     @include mq("lg") {
@@ -61,7 +61,7 @@
 
   &-2 {
     &.theme {
-      background-color: $color-warning;
+      background-color: map-get($grid-colors, "col-2");
     }
 
     @include mq("lg") {
@@ -71,7 +71,7 @@
 
   &-3 {
     &.theme {
-      background-color: $color-col-3;
+      background-color: map-get($grid-colors, "col-3");
     }
 
     @include mq("lg") {
@@ -81,7 +81,7 @@
 
   &-4 {
     &.theme {
-      background-color: $color-col-4;
+      background-color: map-get($grid-colors, "col-4");
     }
 
     @include mq("lg") {
@@ -91,7 +91,7 @@
 
   &-5 {
     &.theme {
-      background-color: $color-col-5;
+      background-color: map-get($grid-colors, "col-5");
     }
 
     @include mq("lg") {
@@ -101,7 +101,7 @@
 
   &-6 {
     &.theme {
-      background-color: $color-col-6;
+      background-color: map-get($grid-colors, "col-6");
     }
 
     @include mq("lg") {
@@ -111,7 +111,7 @@
 
   &-7 {
     &.theme {
-      background-color: $color-col-7;
+      background-color: map-get($grid-colors, "col-7");
     }
 
     @include mq("lg") {
@@ -121,7 +121,7 @@
 
   &-8 {
     &.theme {
-      background-color: $color-col-8;
+      background-color: map-get($grid-colors, "col-8");
     }
 
     @include mq("lg") {
@@ -131,7 +131,7 @@
 
   &-9 {
     &.theme {
-      background-color: $color-error;
+      background-color: map-get($grid-colors, "error");
     }
 
     @include mq("lg") {
@@ -141,7 +141,7 @@
 
   &-10 {
     &.theme {
-      background-color: $color-success;
+      background-color: map-get($grid-colors, "col-10");
     }
 
     @include mq("lg") {
@@ -151,7 +151,7 @@
 
   &-11 {
     &.theme {
-      background-color: $color-default;
+      background-color: map-get($grid-colors, "col-11");
     }
 
     @include mq("lg") {
@@ -161,7 +161,7 @@
 
   &-12 {
     &.theme {
-      background-color: $color-col-12;
+      background-color: map-get($grid-colors, "col-12");
     }
 
     @include mq("lg") {

@@ -3,6 +3,6 @@
 /* ============================================= */
 
 //This function adds a hover affect for buttons
-@function hovering($color){
-    @return lighten($color, 15%);
-  } 
+@function hovering($color) {
+  @return lighten($color, 15%);
+}
